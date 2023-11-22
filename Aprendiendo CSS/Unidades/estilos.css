@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*
+    vw: Para width
+    vh: para Height
+*/
+.contact-form{
+    font-size: 25px;
+    background-color: black;
+    width: 50vww;
+    height: 100vh;
+}
+
+/*Cambia el tamaño de la letra
+    Valores:
+        px=pixeles
+        cm=centimetros
+        mm=milimetros
+        pt=puntos
+    Medidas relativas:
+        1em=16px(Cambia con respecto al px)
+
+.contact-form__h2{
+    font-size: 1em;
+}
+*/

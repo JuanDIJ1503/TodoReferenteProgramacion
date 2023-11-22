@@ -1,0 +1,56 @@
+*{
+    font-family: 'Dongle', sans-serif;
+    font-weight:100;
+    font-size: 30px;
+}
+/*
+    -Cambia el comportamiento de las cajas (linea)
+    °Los elementos en linea no se les puede dar height,padding,width.
+*/
+/*
+h2{
+    display:inline;
+
+}
+
+p{
+    height: 400px;
+}
+*/
+/*
+    -Permite cambiar el color de fondo
+    -Permite que sea un elemento en linea pero que pueda recibir las propiedades como si 
+    fuera bloque
+    -Distancia entre el texto y la caja (Arriba,derecha,abajo,izquierda
+    -box-sizing: border-box. Fija el tamaño de la caja
+    -Centra el texto
+    -Distancia entre las cajas
+    -Redondea el borde
+    -Da sombra (Eje X, Eje Y, Tamaño de desenfoque, Cual sera el borde, color)
+    -Da sombra al texto(EjeX, Eje Y, desenfoque)(Para hacerlo mas intenso duplicar propiedad
+    -Rota el objeto
+    */
+h2{
+    background-color: red;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    border: 5px solid #a22;
+    box-shadow: 30px 20px 10px 10px black;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff,2px 2px 7px #fff;
+    transform: rotate(-45deg)
+}
+
+
+
+
+
+
+
+
+
+
+

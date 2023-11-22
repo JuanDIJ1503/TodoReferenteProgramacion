@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-form{
+    font-size: 25px;
+}
+
+/*
+    -Tamaño de letra
+    -Tipografia de la letra
+    -Tamaño que ocupa la letra
+    -El grosor de la letra
+*/
+.contact-form__h2{
+    font-size: 2em;
+    font-family:sans-serif;
+    line-height: 1;
+    font-weight:900;
+    color:red;
+}

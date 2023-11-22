@@ -1,0 +1,33 @@
+*{
+    font-family: 'Dongle', sans-serif;
+    font-weight:100;
+    font-size: 30px;
+}
+/*
+.caja1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin:auto;
+    outline: 10px solid blue;
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: auto;
+
+}
+*/
+div{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    display: inline-block;
+}
+/*Outiline: Realiza un borde a la caja pero que no ocupa espacio*/
+.caja3{
+    outline: 5px solid red;
+    position:relative;
+}

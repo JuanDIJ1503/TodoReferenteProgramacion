@@ -1,0 +1,21 @@
+*{
+    font-family: 'Dongle', sans-serif;
+    font-weight:100;
+    font-size: 30px;
+}
+div{
+    width: 160px;
+    height: 160px;
+    background: yellow;
+    display: block;
+}
+.caja1{
+    background-color: orange;
+}
+.caja2{
+    background-color: green;
+    position: absolute;
+}
+.caja3{
+    background-color: lightblue;
+}

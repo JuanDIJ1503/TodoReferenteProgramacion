@@ -1,0 +1,12 @@
+.contenedor{
+    /*Convierte a la etiqueta en una grid*/
+    display: grid;
+
+    /*Especifica el tamaño y la cantidad de columnas de la grid*/
+    grid-template-columns: 1fr 2fr 1fr;
+
+    /*Especifica el tamaño y la cantidad de filas de la grid*/
+    grid-template-rows: 150px 300px;
+
+    grid-gap: 20px;
+}

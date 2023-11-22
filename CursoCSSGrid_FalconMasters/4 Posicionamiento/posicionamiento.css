@@ -1,0 +1,35 @@
+.contenedor{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+.contenedor .item{
+    background: #ff8000;
+
+    /* grid-column-start: 1; Indica la columna donde comienza el item*/
+    /* grid-column-end:3; Indica la columna donde termina el item. Con -1 abarca todo*/
+    /* grid-row-start: 1;   Indica la fila donde comienza el item*/
+    /* grid-row-end:-1; Indica la fila donde termina el item*/
+
+
+    /*Ahora una forma simplificada*/
+    /* grid-column: 1 / 4;
+    grid-row: 1 / 3; */
+
+
+    /*Ahora otra forma mucho más simplificada*/
+    /*
+        1er p: grid-row-start
+        2do p: grid-column-start
+        3do p: grid-row-end
+        4to p: grid-column-end
+    */
+    /* grid-area: 2 / 1 / 4 / 3; */
+
+
+    /*Span*/
+    grid-column: span 3; /*Indica que desde la posicion original se extienda 3 columnas*/
+    grid-row: 3 / span 2; /*Indica que desde la posición orignal se extienda 2 filas*/
+}

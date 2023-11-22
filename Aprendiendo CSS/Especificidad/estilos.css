@@ -1,0 +1,26 @@
+/*Jerarguia: IMportant, estilo en line(style), clases o atributos(.), etiquetas(h1,p)*/
+
+/*Con clase*/
+.color-red{
+    color:red;
+}
+
+/*Con etiqueta*/
+h1{
+    color: blue;
+}
+
+/*Con atributos*/
+[ranciobich="color-blue"]{
+    color:yellow;
+}
+
+/*Con id*/
+#color-blue{
+    color:blue;
+}
+
+/*Con important*/
+h1{
+    color:gray !important;
+}

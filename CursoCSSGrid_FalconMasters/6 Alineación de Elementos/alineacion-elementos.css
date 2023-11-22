@@ -1,0 +1,13 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+    justify-items: center;/*Los elementos son alineados al inicio del eje principal (Horizontal)*/
+    align-items: center;/*Alinea los elementos de forma vertical*/
+}
+.contenedor .item{
+    background: #ff8000;
+    justify-self: stretch;/*Modifica el posicionamiento de un solo elemento (Horizontal)*/
+    align-self: stretch; /*Modifica el posicionamiento de un solo elemento (Vertical)*/
+}

@@ -1,0 +1,11 @@
+/*Para seleccionar un input*/
+/*Con first-child
+.contact-form__input:first-child{
+    color:red;
+}
+*/
+
+
+.contact-form__input--active{
+    color:red;
+}
