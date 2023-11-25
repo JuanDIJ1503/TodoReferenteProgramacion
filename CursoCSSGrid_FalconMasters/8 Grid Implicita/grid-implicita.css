@@ -3,4 +3,29 @@
     grid-gap:20px;
     grid-template-columns: 200px 1fr 200px;
     grid-template-rows: 200px 100px 200px;
+
+    /* Controla las filas que se agregaron de forma implicita*/
+    /*grid-auto-rows: 400px; */
+    
+    /*Controla las columnas que se agregaron de forma implicita*/
+    grid-auto-columns: 100px;
+
+    /*Controla la dirección en la cual se colocan los elementos
+        column: Los coloca en columnas
+        row: Los coloca en filas (Es por defecto)
+        dense: Rellena espacios vacios con elemenos que no se han colocado
+    */
+    grid-auto-flow: row dense;
+}
+
+.contenedor .span2{
+    grid-column: span 2; /*Indica que desde la posición original abarque 2 columnas*/
+    /*grid-row: span 2;*/
+    background: #ff8000;
+}
+
+.contenedor .span3{
+    grid-column: span 3; /*Indica que desde la posición original abarque 3 columnas*/
+    /*grid-row: span 3;*/
+    background: #575757;
 }
