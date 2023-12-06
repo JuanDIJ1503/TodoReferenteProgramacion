@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    place-items: center;
+    height: 100vh;
+}
+.contenedor_principal{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,60px);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.contenedor_notas{
+    font-size: 20px;
+}
+.contenedor_notas > input{
+    height: 50px;
+    width: 60px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.btnCalcular{
+    grid-column: 1/-1;
+}
+.btnCalcular button{
+    padding: 10px;
+    border-radius: 10px;
+}
+.validado{
+    border: solid 1px green
+}
