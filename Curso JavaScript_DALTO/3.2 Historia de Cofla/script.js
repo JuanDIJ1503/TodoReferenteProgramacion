@@ -53,15 +53,3 @@ document.write(celular1.infoCel())
 // celular1.grabandoVideo();
 // celular1.presionarBotonEncendido();
 // celular1.reiniciar();
-
-
-
-class CelAltaGama extends Celulares{
-    constructor(color,peso,resoPantalla,resoCamara,memoriaRam){
-        super(color,peso,resoPantalla,resoCamara,memoriaRam);
-    }
-}
-
-class Aplicaciones{
-
-}
